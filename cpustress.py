@@ -6,7 +6,10 @@ def dead_loop():
     while True:
         b=time.time()
         if b - a > 10:
-            break
+            print 'sleep 1s'
+            time.sleep(1)
+            a=time.time()
+            print a
         pass
 if __name__ == '__main__':
     dead_loop()
