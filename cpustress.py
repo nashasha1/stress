@@ -10,3 +10,4 @@ def dead_loop():
         pass
 if __name__ == '__main__':
     dead_loop()
+    print time.time()
