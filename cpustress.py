@@ -10,7 +10,7 @@ def dead_loop():
             print 'sleep 1s'
             print a,'---',count
             count = 0
-            time.sleep(0.1)
+#            time.sleep(0.1)
             a=time.time()
         count += 1
 if __name__ == '__main__':
